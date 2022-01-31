@@ -1,0 +1,126 @@
+/* General section */
+h1 {
+    margin: 50px auto 0;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.62rem;
+    color: #66BFBF;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding: 10px;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+p{
+    line-height: 2;
+    color: #040403;
+}
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #40514E;
+}
+
+hr{
+    width: 4%;
+    border-style: none;
+    border-bottom: dotted 6px;
+    color: gray;
+    margin: 100px auto;
+
+}
+
+.top-container {
+    background-color: #2f323a;
+    position: relative;
+    padding-top: 150px;
+    
+}
+.bottomcloud{
+    position: absolute;
+    left: 350px;
+    bottom: 300px;
+}
+.topcloud{
+    position: absolute;
+    right: 350px;
+    top: 100px;
+}
+
+img{
+    border-radius: 200px;
+}
+
+
+/* Skills */
+
+.skills{
+    background-color: #2f323a;
+    padding-bottom: 10px;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+.image{
+    width: 25%;
+    margin-right: 50px;
+    float: left;
+}
+.image1{
+    width: 25%;
+    margin-left: 50px;
+    float: right;
+}
+
+.sub-title{
+    font-weight: normal;
+}
+.btn{
+    color: #EAF6F6;
+    background-color: #66BFBF;
+    border-radius: 8px;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px;
+}
+.middle-container{
+    padding-top: 100px;
+}
+.intro{
+    width: 30%;
+    margin: auto;
+    line-height: 2;
+}
+
+/* Footer */
+
+.bottom-container{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #2f323a;
+    padding: 50px;
+}
+.footer-element{
+    color: #EAF6F6;
+    margin-top: 30px;
+    font-size: 10px;
+}
+a{
+    color: #11999E;
+    padding: 20px;
+    text-decoration: none;
+    margin: auto;
+}
+a:hover{
+    color: #000;
+}
